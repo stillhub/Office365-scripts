@@ -14,3 +14,5 @@ Add-MailboxFolderPermission -Identity x@example.com:\Calendar -User y@example.co
 Set-MailboxFolderPermission -Identity x@example.com:\Calendar -User default -AccessRights Reviewer
 
 Get-MailboxFolderPermission -Identity x@example.com:\Calendar
+
+Remove-MailboxFolderPermission -Identity x@example.com:\Calendar -User x@example.com
